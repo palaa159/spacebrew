@@ -28,6 +28,7 @@ var	forever = require('forever-monitor')
 	, help = false
 	, data_dir = __dirname + "/data"
 	, log_dir = __dirname + "/data/log"
+	, connect = require('connect')
 	;
 
 
